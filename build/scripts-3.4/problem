@@ -1,0 +1,13 @@
+#!/usr/bin/python3.4
+
+import sys
+from PyQt5 import QtWidgets
+
+from ProblemArchive.gui import Ui_TabWidget
+
+app = QtWidgets.QApplication(sys.argv)
+TabWidget = QtWidgets.QTabWidget()
+ui = Ui_TabWidget()
+ui.setupUi(TabWidget)
+TabWidget.show()
+sys.exit(app.exec_())
