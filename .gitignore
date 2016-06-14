@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+build
+ProblemArchive/database.sqlite
+.idea/dataSources.local.xml
+.idea/workspace.xml
+ProblemArchive/__pycache__/
+__pycache__/
